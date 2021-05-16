@@ -11,6 +11,9 @@
 |
 */
 
+Route::resource('products','ProductController');
+Route::resource('alugueis','AluguelController');
+
 Route::get('/', function () {
     return view('welcome');
 });
